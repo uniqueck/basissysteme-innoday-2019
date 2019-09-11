@@ -42,6 +42,9 @@ workflows:
   build-n-deploy:
     jobs:
       - build:
+          filters:
+            branches:
+              only: master
       - docs-deploy:
           requires:
             - build
