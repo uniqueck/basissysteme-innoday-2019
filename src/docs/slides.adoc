@@ -1,0 +1,33 @@
+= Innoday 2019 Basissysteme
+
+:revealjs_history: true
+:revealjs_slidenumber: c/t
+:imagesdir: images
+:revealjs_plugins: revealjs-plugins.js
+:revealjs_plugins_configuration: revealjs-plugins-conf.js
+
+== DopiX GiroCode
+
+=== Was ist ein GiroCode?
+
+[quote]
+____
+Ein GiroCode* ist ein QR-Code (englisch „Quick Response“), mit allen relevanten Daten (Empfänger, IBAN, BIC, Betrag und Verwendungszweck) für eine SEPA-Überweisung. Banking-Apps wie beispielsweise die VR-Banking-App oder die Sparkassen-App auf dem Smartphone oder Tablet decodiert die Daten des QR-Codes zur weiteren Verwendung. Der Nutzer kann nun die Zahlungsdaten prüfen und wie gewohnt mit einer TAN freigeben.
+
+Das European Payments Council (EPC) hat einen standardisierter Datensatz definiert, um eine europaweite und einheitliche technische Ausfüllhilfe bereitzustellen.
+____
+
+=== Ablauf
+
+image::EPC_QR_CODE_Workflow.png[width="800px"]
+
+[%step]
+.Vorteile
+* Komfortables Bezahlen mit dem Smartphone per Banking App
+* Kein mühsames Abtippen mehr von Überweisungsdaten
+* Keine Tippfehler mehr in Überweisungen
+
+== Realtime Überwachung
+
+== AsciiDoc für Präsentationen
+
