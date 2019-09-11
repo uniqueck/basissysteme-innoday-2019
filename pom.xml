@@ -127,6 +127,7 @@
                             <outputDirectory>${project.slides.directory}</outputDirectory>
                             <backend>revealjs</backend>
                             <sourceHighlighter>rouge</sourceHighlighter>
+                            <outputFile>index.html</outputFile>
                             <attributes>
                                 <revealjsdir>reveal.js-${revealjs.version}</revealjsdir>
                                 <!-- put here the reveal.js specific attributes -->
