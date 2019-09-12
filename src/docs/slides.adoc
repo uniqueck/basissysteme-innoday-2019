@@ -6,7 +6,7 @@
 :revealjs_plugins: revealjs-plugins.js
 :revealjs_plugins_configuration: revealjs-plugins-conf.js
 
-== DopiX GiroCode
+== DOPiX GiroCode
 
 === Was ist ein GiroCode?
 
