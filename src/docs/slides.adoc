@@ -29,5 +29,59 @@ image::EPC_QR_CODE_Workflow.png[width="800px"]
 
 == Realtime Überwachung
 
-== AsciiDoc für Präsentationen
+== DocAsCode mit AsciiDoc und Plantuml
+
+image::DocAsCodeIntro.png[width="800px"]
+
+=== Was ist DocAsCode?
+[%step]
+* Technische Dokumentationen sind, wenn überhaupt,
+oft sehr schnell veraltet. Einer der Gründe dafür liegt oft darin,
+dass sich die Dokumentation irgendwo weit entfernt von dem Thema befindet,
+das sie dokumentiert: dem Code
+
+* Die Leute, die die Dokumentation schreiben sollen,
+müssen mit einem Medienbruch rechnen, wenn sie dokumentieren wollen,
+was sie getan haben:
+Sie müssen ein Dokument aktualisieren, das sich nicht in dem Code befindet,
+den sie geschrieben haben, und möglicherweise sogar nicht in ihrer
+IDE verfügbar ist ( zB Rochade, ein Wiki oder ein Word-Dokument irgendwo in Sharepoint).
+
+* Auch wenn diese Belastung genommen wird und die Dokumentation aktualisiert wird,
+enthält sie möglicherweise doppelten Inhalt, wenn es um Codebeispiele geht.
+
+* Codebeispiele in der Dokumentation zu haben,
+verletzt schnell die einzige Quelle der Wahrheit.
+Wie kann ich sicher sein, dass die Dokumentation nicht veraltet
+oder schlimmstenfalls irreführend ist, wenn sich der entsprechende Code ändert?
+
+=== Warum sollte man es benutzen?
+[%step]
+.Vorteile
+* Automatisch generierte Dokumentation
+* Dokumentation befindet sich nah am Code
+* Dokumentation wird immer mit dem Einsatz des Codes veröffenlicht
+* Integration von AsciiDoctor in dem BuildSystem durch Maven oder Gradle
+* Kann lokan benutzt werden
+* Mediumunabhängige Dokumentation => kann nach Pdf, Wiki, Html usw. veröffentlicht werdens
+
+=== Wie funktioniert es?
+
+image::DocAsCodeInfrastructure.png[width="800px"]
+
+=== Was kann man damit machen?
+
+Auszüge aus der Doku, wie es zu verwenden ist
+
+* Diagramme - PlantUml
+* Tabellen
+* Formatierung von Texte
+* Beispiele direkt aus dem SourceCode einbinden
+* Fußnoten
+* usw.
+
+=== Beispiele aus dem Alltag
+
+hier paar Beispiele mit Projekte aus der Badenia
+
 
