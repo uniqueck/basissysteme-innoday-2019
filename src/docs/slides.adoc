@@ -10,11 +10,11 @@
 
 === Was ist ein GiroCode?
 
-[quote]
+[quote, https://www.girocode-generator.de]
 ____
-Ein GiroCode* ist ein QR-Code (englisch „Quick Response“), mit allen relevanten Daten (Empfänger, IBAN, BIC, Betrag und Verwendungszweck) für eine SEPA-Überweisung. Banking-Apps wie beispielsweise die VR-Banking-App oder die Sparkassen-App auf dem Smartphone oder Tablet decodiert die Daten des QR-Codes zur weiteren Verwendung. Der Nutzer kann nun die Zahlungsdaten prüfen und wie gewohnt mit einer TAN freigeben.
+Ein GiroCodefootnote:[GiroCode ist eine Marketing-Bezeichnung der GiroSolution GmbH für EPC-QR-Codes.] ist ein QR-Code (englisch „Quick Response“), mit allen relevanten Daten (Empfänger, IBAN, BIC, Betrag und Verwendungszweck) für eine SEPA-Überweisung. Banking-Apps wie beispielsweise die VR-Banking-App oder die Sparkassen-App auf dem Smartphone oder Tablet decodieren die Daten des QR-Codes zur weiteren Verwendung. Der Nutzer kann nun die Zahlungsdaten prüfen und wie gewohnt mit einer TAN freigeben.
 
-Das European Payments Council (EPC) hat einen standardisierter Datensatz definiert, um eine europaweite und einheitliche technische Ausfüllhilfe bereitzustellen.
+Das European Payments Council (EPC) hat einen standardisierten Datensatz definiert, um eine europaweite und einheitliche technische Ausfüllhilfe bereitzustellen.
 ____
 
 === Ablauf
