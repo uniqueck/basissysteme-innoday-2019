@@ -31,25 +31,39 @@ image::EPC_QR_CODE_Workflow.png[width="800px"]
 
 == DocAsCode mit AsciiDoc und Plantuml
 
+image::DocAsCodeIntro.png[width="800px"]
+
 === Was ist DocAsCode?
+[%step]
+* Technische Dokumentationen sind, wenn überhaupt,
+oft sehr schnell veraltet. Einer der Gründe dafür liegt oft darin,
+dass sich die Dokumentation irgendwo weit entfernt von dem Thema befindet,
+das sie dokumentiert: dem Code
 
-Technical documentation, if done at all, often tends to get outdated very quickly. One of the reasons for that often lies in having the documentation located somewhere far away from the subject it is documenting: the code.
+* Die Leute, die die Dokumentation schreiben sollen,
+müssen mit einem Medienbruch rechnen, wenn sie dokumentieren wollen,
+was sie getan haben:
+Sie müssen ein Dokument aktualisieren, das sich nicht in dem Code befindet,
+den sie geschrieben haben, und möglicherweise sogar nicht in ihrer
+IDE verfügbar ist ( zB Rochade, ein Wiki oder ein Word-Dokument irgendwo in Sharepoint).
 
-The guys who are supposed to write the documentation face a media break when going to document what they were doing: They need to update a document which is not co-located to the code they were writing and perhaps even is not available in their IDE (e.g., a wiki or a word document somewhere in Sharepoint).
+* Auch wenn diese Belastung genommen wird und die Dokumentation aktualisiert wird,
+enthält sie möglicherweise doppelten Inhalt, wenn es um Codebeispiele geht.
 
-Even if that burden is taken and the documentation gets updated, it may contain duplicated content when it comes to code examples.
-
-Having code examples in the documentation quickly violates the single source of truth. If the corresponding code changes, how am I sure that the documentation does not get outdated or even misleading at worst?
+* Codebeispiele in der Dokumentation zu haben,
+verletzt schnell die einzige Quelle der Wahrheit.
+Wie kann ich sicher sein, dass die Dokumentation nicht veraltet
+oder schlimmstenfalls irreführend ist, wenn sich der entsprechende Code ändert?
 
 === Warum sollte man es benutzen?
 [%step]
 .Vorteile
-* Auto generated documentation
-* Keeping documentation together with your sources
-* Release documentation together with code
-* Integrate AsciiDoctor in your build using Maven or Gradle
-* Can be used locally
-* Multiple output formats
+* Automatisch generierte Dokumentation
+* Dokumentation befindet sich nah am Code
+* Dokumentation wird immer mit dem Einsatz des Codes veröffenlicht
+* Integration von AsciiDoctor in dem BuildSystem durch Maven oder Gradle
+* Kann lokan benutzt werden
+* Mediumunabhängige Dokumentation => kann nach Pdf, Wiki, Html usw. veröffentlicht werdens
 
 === Wie funktioniert es?
 
