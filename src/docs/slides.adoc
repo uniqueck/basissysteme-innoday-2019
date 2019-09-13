@@ -29,5 +29,45 @@ image::EPC_QR_CODE_Workflow.png[width="800px"]
 
 == Realtime Überwachung
 
-== AsciiDoc für Präsentationen
+== DocAsCode mit AsciiDoc und Plantuml
+
+=== Was ist DocAsCode?
+
+Technical documentation, if done at all, often tends to get outdated very quickly. One of the reasons for that often lies in having the documentation located somewhere far away from the subject it is documenting: the code.
+
+The guys who are supposed to write the documentation face a media break when going to document what they were doing: They need to update a document which is not co-located to the code they were writing and perhaps even is not available in their IDE (e.g., a wiki or a word document somewhere in Sharepoint).
+
+Even if that burden is taken and the documentation gets updated, it may contain duplicated content when it comes to code examples.
+
+Having code examples in the documentation quickly violates the single source of truth. If the corresponding code changes, how am I sure that the documentation does not get outdated or even misleading at worst?
+
+=== Warum sollte man es benutzen?
+[%step]
+.Vorteile
+* Auto generated documentation
+* Keeping documentation together with your sources
+* Release documentation together with code
+* Integrate AsciiDoctor in your build using Maven or Gradle
+* Can be used locally
+* Multiple output formats
+
+=== Wie funktioniert es?
+
+image::DocAsCodeInfrastructure.png[width="800px"]
+
+=== Was kann man damit machen?
+
+Auszüge aus der Doku, wie es zu verwenden ist
+
+* Diagramme - PlantUml
+* Tabellen
+* Formatierung von Texte
+* Beispiele direkt aus dem SourceCode einbinden
+* Fußnoten
+* usw.
+
+=== Beispiele aus dem Alltag
+
+hier paar Beispiele mit Projekte aus der Badenia
+
 
