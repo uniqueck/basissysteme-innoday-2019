@@ -87,5 +87,3 @@ image::DocAsCodeInfrastructure.png[width="800px"]
 === Beispiele aus dem Alltag
 
 hier paar Beispiele mit Projekte aus der Badenia
-
-
