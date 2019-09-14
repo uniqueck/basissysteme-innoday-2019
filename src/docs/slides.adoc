@@ -42,7 +42,7 @@ das sie dokumentiert
 ** dem Code
 
 === Herausforderungen einer guten Dokumentation
-* Medienbruch um die Doku zu aktalisieren:
+* Medienbruch um die Doku zu aktualisieren:
 [%step]
 ** Dokumentation ist nicht in IDE verfügbar
 ** Rochade, Wiki, Word-Dokument, usw.
