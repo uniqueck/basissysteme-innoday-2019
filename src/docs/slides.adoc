@@ -33,46 +33,50 @@ image::EPC_QR_CODE_Workflow.png[width="800px"]
 
 image::DocAsCodeIntro.png[width="800px"]
 
-=== Was ist DocAsCode?
+=== Herausforderungen einer guten Dokumentation
+* Technische Dokumentationen sind, wenn überhaupt:
 [%step]
-* Technische Dokumentationen sind, wenn überhaupt,
-oft sehr schnell veraltet. Einer der Gründe dafür liegt oft darin,
-dass sich die Dokumentation irgendwo weit entfernt von dem Thema befindet,
-das sie dokumentiert: dem Code
+** oft sehr schnell veraltet
+** die Dokumentation befindet sich weit entfernt von dem Thema
+das sie dokumentiert
+** dem Code
 
-* Die Leute, die die Dokumentation schreiben sollen,
-müssen mit einem Medienbruch rechnen, wenn sie dokumentieren wollen,
-was sie getan haben:
-Sie müssen ein Dokument aktualisieren, das sich nicht in dem Code befindet,
-den sie geschrieben haben, und möglicherweise sogar nicht in ihrer
-IDE verfügbar ist ( zB Rochade, ein Wiki oder ein Word-Dokument irgendwo in Sharepoint).
-
-* Auch wenn diese Belastung genommen wird und die Dokumentation aktualisiert wird,
-enthält sie möglicherweise doppelten Inhalt, wenn es um Codebeispiele geht.
-
-* Codebeispiele in der Dokumentation zu haben,
-verletzt schnell die einzige Quelle der Wahrheit.
-Wie kann ich sicher sein, dass die Dokumentation nicht veraltet
-oder schlimmstenfalls irreführend ist, wenn sich der entsprechende Code ändert?
-
-=== Warum sollte man es benutzen?
+=== Herausforderungen einer guten Dokumentation
+* Medienbruch um die Doku zu aktalisieren:
 [%step]
-.Vorteile
+** Dokumentation ist nicht in IDE verfügbar
+** Rochade, Wiki, Word-Dokument, usw.
+
+=== Herausforderungen einer guten Dokumentation
+* Auch wenn dieses Problem gelöst wird
+[%step]
+** enthält die Doku möglicherweise doppelten Inhalt
+** wie zB. Codebeispiele
+
+=== Herausforderungen einer guten Dokumentation
+* Codebeispiele in der Dokumentation verletzt schnell die einzige Quelle der Wahrheit.
+[%step]
+** Wie kann ich sicher sein, dass die Dokumentation nicht veraltet
+oder schlimmstenfalls irreführend ist
+** wenn sich der entsprechende Code ändert?
+
+=== Vorteile der Verwendung der Methode DocAsCode
+[%step]
 * Automatisch generierte Dokumentation
 * Dokumentation befindet sich nah am Code
 * Dokumentation wird immer mit dem Einsatz des Codes veröffenlicht
 * Integration von AsciiDoctor in dem BuildSystem durch Maven oder Gradle
-* Kann lokan benutzt werden
-* Mediumunabhängige Dokumentation => kann nach Pdf, Wiki, Html usw. veröffentlicht werdens
+* Kann lokal benutzt werden
+* Mediumunabhängige Dokumentation => kann nach Pdf, Wiki, Html usw. veröffentlicht werden
 
 === Wie funktioniert es?
 
 image::DocAsCodeInfrastructure.png[width="800px"]
 
-=== Was kann man damit machen?
+=== Was ist alles damit möglich?
 
-Auszüge aus der Doku, wie es zu verwenden ist
-
+[%step]
+* Modulare Dokumentation => Dateien miteinander verknüpfen
 * Diagramme - PlantUml
 * Tabellen
 * Formatierung von Texte
