@@ -1,12 +1,21 @@
 = Innoday 2019 Basissysteme
 
+:figure-caption: Abbildung
 :revealjs_history: true
 :revealjs_slidenumber: c/t
-:imagesdir: images
 :revealjs_plugins: revealjs-plugins.js
 :revealjs_plugins_configuration: revealjs-plugins-conf.js
+:plantuml: ./diagrams
+:imagesdir: ./images
+
+== URL zur Präsentation
+image::URL_Presentation.png[width="40%"]
+
 
 == DOPiX GiroCode
+[.maxed-image]
+image::girocode.png[]
+
 
 === Was ist ein GiroCode?
 
@@ -17,9 +26,9 @@ Ein GiroCodefootnote:[GiroCode ist eine Marketing-Bezeichnung der GiroSolution G
 Das European Payments Council (EPC) hat einen standardisierten Datensatz definiert, um eine europaweite und einheitliche technische Ausfüllhilfe bereitzustellen.
 ____
 
-=== Ablauf
 
-image::EPC_QR_CODE_Workflow.png[width="800px"]
+=== Ablauf
+image::EPC_QR_CODE_Workflow.png[width="100%"]
 
 [%step]
 .Vorteile
@@ -27,5 +36,79 @@ image::EPC_QR_CODE_Workflow.png[width="800px"]
 * Kein mühsames Abtippen mehr von Überweisungsdaten
 * Keine Tippfehler mehr in Überweisungen
 
-== Realtime Überwachung
 
+=== Beispiel-Überweisung
+[.halign-center]
+Überweisung Betrag 0,01 EUR
+
+image::QR-Code.png[width="40%"]
+
+
+[.questions]
+=== !
+
+
+
+
+
+== Realtime Überwachung
+[.maxed-image]
+image::Realtime.png[]
+
+
+
+=== Realtime Überwachung Monitor
+{nbsp} +
+
+[%step]
+[.halign-center]
+[.ultrabig]
+[.nobubbles]
+* *Funktion* +
+Intervallgesteuerte Prüfung von +
+internen und externen (Web-) +
+Services und Verbindungen
+
+{nbsp} +
+
+[%step]
+[.halign-center]
+[.ultrabig]
+[.nobubbles]
+* *Voraussetzung* +
+Service stellt eine HTTP, SOAP oder +
+REST-Schnittstelle bereit
+
+
+=== Realtime Überwachung Monitor
+[.maxed-image]
+plantuml::{plantuml}/overview_rtue.puml[format=png, title="Überblick angebundene Randsysteme"]
+
+
+=== Realtime Überwachung Monitor
+[%step]
+[.halign-center]
+[.ultrabig]
+[.nobubbles]
+* *Benefit* +
+Frühzeitiges Erkennen von Problemen +
+(Beispielsweise Sprengnetter ONE oder Ten2Click)
+
+{nbsp} +
+
+[%step]
+[.halign-center]
+[.ultrabig]
+[.nobubbles]
+* *Ausblick* +
+** - Kompakteres Format +
+** - Online Anzeige der letzten Fehlermeldungen +
+** - Einbindung weiterer Services
+
+
+[.questions]
+=== !
+
+
+[.hands]
+=== !
