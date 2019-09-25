@@ -1,0 +1,47 @@
+@startuml
+
+skinparam node {
+	BackgroundColor<<Service2Observe>> darkorange
+    FontSize<<Service2Observe>> 50
+    FontColor<<Service2Observe>> beige
+
+	BackgroundColor<<Service>> firebrick
+	FontSize<<Service>> 50
+	FontColor<<Service>> beige
+
+	BackgroundColor<<Monitor>> olivedrab
+	FontSize<<Monitor>> 50
+	FontColor<<Monitor>> beige
+
+	BackgroundColor<<Mail>> dodgerblue
+	FontSize<<Mail>> 50
+    FontColor<<Mail>> beige
+}
+
+node "\n<b>   Axway   </b>\n" as Axway <<Service2Observe>>
+node "\n<b>   SchuFa   </b>\n" as SchuFa <<Service2Observe>>
+node "\n<b>   ESB   </b>\n" as ESB <<Service2Observe>>
+node "\n<b>   Sprengnetter   </b>\n<b>   ONE   </b>\n" as Sprengnetter <<Service2Observe>>
+node "\n<b>   Poseidon   </b>\n" as Poseidon <<Service2Observe>>
+node "\n<b>   Ten2Click   </b>\n" as Ten2Click <<Service2Observe>>
+node "\n<b>   EPost   </b>\n" as EPost <<Service2Observe>>
+node "\n<b>   ...   </b>\n" as AnderesSystem <<Service2Observe>>
+
+node "\n\n<b>                 RTÜ                   </b>\n<b>              Service</b>\n\n" as Service <<Service>>
+
+node "\n<b>         RTÜ              </b>\n<b>      Monitor</b>\n" as RTUEMonitor <<Monitor>>
+node "\n<b>    Notes       </b>\n" as Notes <<Mail>>
+
+ESB ----> Service
+Axway ----> Service
+EPost ----> Service
+SchuFa ---> Service
+Sprengnetter ---> Service
+Ten2Click ---> Service
+Poseidon ----> Service
+AnderesSystem ---> Service
+
+Service ---> RTUEMonitor
+Service ---> Notes
+
+@enduml
