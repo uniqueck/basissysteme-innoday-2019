@@ -343,6 +343,10 @@ span.hljs-comment, span.hljs-emphasis {
   font-size: larger;
 }
 
+.reveal .ultrabig {
+  font-size: 180%;
+}
+
 .reveal .underline {
   text-decoration: underline;
 }
@@ -808,7 +812,11 @@ text.c3-axis-y-label, text.c3-axis-y2-label {
   left: 49.05%;
   bottom: 2%;
 }
-  
+
+.nobubbles li{
+  list-style: none;
+}
+
 /* bubble list */
 .timeline  ul {
   list-style: none;
